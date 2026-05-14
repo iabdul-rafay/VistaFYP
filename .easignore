@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+.gradle-user-home/
+.gradle-tmp/
+.hf-cache/
+.venv-ml/
+android/.gradle/
+android/.kotlin/
+android/app/build/
+android/build/
+*.apk
+*.aab

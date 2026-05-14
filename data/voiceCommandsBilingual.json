@@ -1,0 +1,102 @@
+[
+  {
+    "intent": "TURN_ON_BULB_1",
+    "action": "BULB1:ON",
+    "icon": "bulb",
+    "names": { "en": "Turn on Bulb 1", "ur": "بلب 1 چالو کریں" },
+    "utterances": {
+      "en": ["turn on bulb 1", "bulb 1 on", "switch on bulb 1", "light one on", "turn on light 1"],
+      "ur": ["بلب ایک آن", "بلب 1 آن", "بلب 1 چالو کریں", "روشنی 1 چالو کریں", "پہلا بلب چالو کرو"]
+    }
+  },
+  {
+    "intent": "TURN_OFF_BULB_1",
+    "action": "BULB1:OFF",
+    "icon": "bulb-outline",
+    "names": { "en": "Turn off Bulb 1", "ur": "بلب 1 بند کریں" },
+    "utterances": {
+      "en": ["turn off bulb 1", "bulb 1 off", "switch off bulb 1", "light one off", "turn off light 1"],
+      "ur": ["بلب ایک آف", "بلب 1 آف", "بلب 1 بند کریں", "روشنی 1 بند کریں", "پہلا بلب بند کرو"]
+    }
+  },
+  {
+    "intent": "TURN_ON_BULB_2",
+    "action": "BULB2:ON",
+    "icon": "bulb",
+    "names": { "en": "Turn on Bulb 2", "ur": "بلب 2 چالو کریں" },
+    "utterances": {
+      "en": ["turn on bulb 2", "bulb 2 on", "switch on bulb 2", "light two on", "turn on light 2"],
+      "ur": ["بلب دو آن", "بلب 2 آن", "بلب 2 چالو کریں", "روشنی 2 چالو کریں", "دوسرا بلب چالو کرو"]
+    }
+  },
+  {
+    "intent": "TURN_OFF_BULB_2",
+    "action": "BULB2:OFF",
+    "icon": "bulb-outline",
+    "names": { "en": "Turn off Bulb 2", "ur": "بلب 2 بند کریں" },
+    "utterances": {
+      "en": ["turn off bulb 2", "bulb 2 off", "switch off bulb 2", "light two off", "turn off light 2"],
+      "ur": ["بلب دو آف", "بلب 2 آف", "بلب 2 بند کریں", "روشنی 2 بند کریں", "دوسرا بلب بند کرو"]
+    }
+  },
+  {
+    "intent": "TURN_ON_FAN_1",
+    "action": "FAN1:50",
+    "icon": "snow",
+    "names": { "en": "Turn on Fan 1", "ur": "فین 1 چالو کریں" },
+    "utterances": {
+      "en": ["turn on fan 1", "fan 1 on", "start fan 1", "switch on fan 1", "fan one on"],
+      "ur": ["فین ایک آن", "فین 1 آن", "فین 1 چالو کریں", "پہلا فین چالو کرو", "فین 1 شروع کریں"]
+    }
+  },
+  {
+    "intent": "TURN_OFF_FAN_1",
+    "action": "FAN1:0",
+    "icon": "snow-outline",
+    "names": { "en": "Turn off Fan 1", "ur": "فین 1 بند کریں" },
+    "utterances": {
+      "en": ["turn off fan 1", "fan 1 off", "stop fan 1", "switch off fan 1", "fan one off"],
+      "ur": ["فین ایک آف", "فین 1 آف", "فین 1 بند کریں", "پہلا فین بند کرو", "فین 1 رکو"]
+    }
+  },
+  {
+    "intent": "TURN_ON_FAN_2",
+    "action": "FAN2:50",
+    "icon": "snow",
+    "names": { "en": "Turn on Fan 2", "ur": "فین 2 چالو کریں" },
+    "utterances": {
+      "en": ["turn on fan 2", "fan 2 on", "start fan 2", "switch on fan 2", "fan two on"],
+      "ur": ["فین دو آن", "فین 2 آن", "فین 2 چالو کریں", "دوسرا فین چالو کرو", "فین 2 شروع کریں"]
+    }
+  },
+  {
+    "intent": "TURN_OFF_FAN_2",
+    "action": "FAN2:0",
+    "icon": "snow-outline",
+    "names": { "en": "Turn off Fan 2", "ur": "فین 2 بند کریں" },
+    "utterances": {
+      "en": ["turn off fan 2", "fan 2 off", "stop fan 2", "switch off fan 2", "fan two off"],
+      "ur": ["فین دو آف", "فین 2 آف", "فین 2 بند کریں", "دوسرا فین بند کرو", "فین 2 رکو"]
+    }
+  },
+  {
+    "intent": "OPEN_GATE",
+    "action": "SERVO:90",
+    "icon": "key",
+    "names": { "en": "Open Gate", "ur": "گیٹ کھولیں" },
+    "utterances": {
+      "en": ["open gate", "open the gate", "unlock gate", "open door", "gate open"],
+      "ur": ["گیٹ کھولیں", "گیٹ کھول دو", "دروازہ کھولیں", "قفل کھولو", "گیٹ اوپن"]
+    }
+  },
+  {
+    "intent": "CLOSE_GATE",
+    "action": "SERVO:0",
+    "icon": "key-outline",
+    "names": { "en": "Close Gate", "ur": "گیٹ بند کریں" },
+    "utterances": {
+      "en": ["close gate", "close the gate", "lock gate", "close door", "gate close"],
+      "ur": ["گیٹ بند کریں", "گیٹ بند کرو", "دروازہ بند کریں", "قفل لگاؤ", "گیٹ کلوز"]
+    }
+  }
+]
